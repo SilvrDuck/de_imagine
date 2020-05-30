@@ -1,0 +1,3907 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 10
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (7239 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 7 texinfos to 5
+Reduced 2 texdatas to 2 (64 bytes to 64)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+  93 portalclusters
+ 265 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1 visible clusters (0.00%)
+Total clusters visible: 7726
+Average clusters visible: 83
+Building PAS...
+Average clusters audible: 93
+visdatasize:2982  compressed from 2976
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+321 faces
+844141 square feet [121556328.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+321 patches before subdivision
+12557 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 13527, max 216
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0049 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 19/8192          228/98304    ( 0.2%) 
+brushsides             114/81920         912/655360   ( 0.1%) 
+planes                 132/65536        2640/1310720  ( 0.2%) 
+vertexes               446/65536        5352/786432   ( 0.7%) 
+nodes                  239/65536        7648/2097152  ( 0.4%) 
+texinfos                 5/12288         360/884736   ( 0.0%) 
+texdata                  2/4096           64/131072   ( 0.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  321/65536       17976/3670016  ( 0.5%) 
+hdr faces              321/65536       17976/3670016  ( 0.5%) 
+origfaces               60/65536        3360/3670016  ( 0.1%) 
+facebrushes              6/0              12/0        ( 0.0%) 
+facebrushlists         321/0            1284/0        ( 0.0%) 
+leaves                 241/65536        7712/2097152  ( 0.4%) 
+leaffaces              339/65536         678/131072   ( 0.5%) 
+leafbrushes            129/65536         258/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1650/512000       6600/2048000  ( 0.3%) 
+edges                  871/256000       3484/1024000  ( 0.3%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          2/8192          200/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             19/32768         190/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           246/65536         492/131072   ( 0.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     1449920/0        ( 0.0%) 
+visdata               [variable]        2982/16777216 ( 0.0%) 
+entdata               [variable]         640/393216   ( 0.2%) 
+LDR ambient table      241/65536         964/262144   ( 0.4%) 
+HDR ambient table      241/65536         964/262144   ( 0.4%) 
+LDR leaf ambient       241/65536        6748/1835008  ( 0.4%) 
+HDR leaf ambient      1301/65536       36428/1835008  ( 2.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74466/0        ( 0.0%) 
+physics               [variable]        7239/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7e
+
+Total triangle count: 768
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 11
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (7239 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 10 texinfos to 8
+Reduced 3 texdatas to 3 (108 bytes to 108)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+  93 portalclusters
+ 265 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1 visible clusters (0.00%)
+Total clusters visible: 7726
+Average clusters visible: 83
+Building PAS...
+Average clusters audible: 93
+visdatasize:2982  compressed from 2976
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+326 faces
+844141 square feet [121556328.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+326 patches before subdivision
+14248 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 76115, max 216
+transfer lists:   0.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(7399, 2371, 359)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(131, 41, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(14, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0063 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 19/8192          228/98304    ( 0.2%) 
+brushsides             114/81920         912/655360   ( 0.1%) 
+planes                 132/65536        2640/1310720  ( 0.2%) 
+vertexes               456/65536        5472/786432   ( 0.7%) 
+nodes                  239/65536        7648/2097152  ( 0.4%) 
+texinfos                 8/12288         576/884736   ( 0.1%) 
+texdata                  3/4096           96/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  326/65536       18256/3670016  ( 0.5%) 
+hdr faces              326/65536       18256/3670016  ( 0.5%) 
+origfaces               60/65536        3360/3670016  ( 0.1%) 
+facebrushes             12/0              24/0        ( 0.0%) 
+facebrushlists         326/0            1304/0        ( 0.0%) 
+leaves                 241/65536        7712/2097152  ( 0.4%) 
+leaffaces              345/65536         690/131072   ( 0.5%) 
+leafbrushes            129/65536         258/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1680/512000       6720/2048000  ( 0.3%) 
+edges                  886/256000       3544/1024000  ( 0.3%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          2/8192          200/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             25/32768         250/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           327/65536         654/131072   ( 0.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     1601784/0        ( 0.0%) 
+visdata               [variable]        2982/16777216 ( 0.0%) 
+entdata               [variable]         640/393216   ( 0.2%) 
+LDR ambient table      241/65536         964/262144   ( 0.4%) 
+HDR ambient table      241/65536         964/262144   ( 0.4%) 
+LDR leaf ambient       241/65536        6748/1835008  ( 0.4%) 
+HDR leaf ambient      1317/65536       36876/1835008  ( 2.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74466/0        ( 0.0%) 
+physics               [variable]        7239/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7e
+
+Total triangle count: 788
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 13
+Brush 546: no visible sides on brush
+Brush 546: no visible sides on brush
+Brush 546: no visible sides on brush
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (13687 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 17 texinfos to 15
+Reduced 4 texdatas to 4 (152 bytes to 152)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+ 134 portalclusters
+ 423 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 10 visible clusters (0.00%)
+Total clusters visible: 15546
+Average clusters visible: 116
+Building PAS...
+Average clusters audible: 134
+visdatasize:5666  compressed from 6432
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+427 faces
+850160 square feet [122423048.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+427 patches before subdivision
+15397 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 264688, max 345
+transfer lists:   2.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(25713, 12664, 7391)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2907, 1338, 685)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(689, 262, 167)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(111, 37, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(34, 13, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(6, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0059 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 38/8192          456/98304    ( 0.5%) 
+brushsides             237/81920        1896/655360   ( 0.3%) 
+planes                 198/65536        3960/1310720  ( 0.3%) 
+vertexes               583/65536        6996/786432   ( 0.9%) 
+nodes                  305/65536        9760/2097152  ( 0.5%) 
+texinfos                15/12288        1080/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  427/65536       23912/3670016  ( 0.7%) 
+hdr faces              427/65536       23912/3670016  ( 0.7%) 
+origfaces              139/65536        7784/3670016  ( 0.2%) 
+facebrushes             24/0              48/0        ( 0.0%) 
+facebrushlists         427/0            1708/0        ( 0.0%) 
+leaves                 307/65536        9824/2097152  ( 0.5%) 
+leaffaces              460/65536         920/131072   ( 0.7%) 
+leafbrushes            156/65536         312/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             2478/512000       9912/2048000  ( 0.5%) 
+edges                 1330/256000       5320/1024000  ( 0.5%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          2/8192          200/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             30/32768         300/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           405/65536         810/131072   ( 0.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     1698424/0        ( 0.0%) 
+visdata               [variable]        5666/16777216 ( 0.0%) 
+entdata               [variable]         641/393216   ( 0.2%) 
+LDR ambient table      307/65536        1228/262144   ( 0.5%) 
+HDR ambient table      307/65536        1228/262144   ( 0.5%) 
+LDR leaf ambient       307/65536        8596/1835008  ( 0.5%) 
+HDR leaf ambient      1809/65536       50652/1835008  ( 2.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74466/0        ( 0.0%) 
+physics               [variable]       13687/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7e
+
+Total triangle count: 1068
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 13
+Brush 546: no visible sides on brush
+Brush 546: no visible sides on brush
+Brush 546: no visible sides on brush
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (13687 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 17 texinfos to 15
+Reduced 4 texdatas to 4 (152 bytes to 152)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+ 134 portalclusters
+ 423 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 10 visible clusters (0.00%)
+Total clusters visible: 15546
+Average clusters visible: 116
+Building PAS...
+Average clusters audible: 134
+visdatasize:5666  compressed from 6432
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+427 faces
+850160 square feet [122423048.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+427 patches before subdivision
+15397 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 264688, max 345
+transfer lists:   2.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(25713, 12664, 7391)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2907, 1338, 685)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(689, 262, 167)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(111, 37, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(34, 13, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(6, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0060 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 38/8192          456/98304    ( 0.5%) 
+brushsides             237/81920        1896/655360   ( 0.3%) 
+planes                 198/65536        3960/1310720  ( 0.3%) 
+vertexes               583/65536        6996/786432   ( 0.9%) 
+nodes                  305/65536        9760/2097152  ( 0.5%) 
+texinfos                15/12288        1080/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  427/65536       23912/3670016  ( 0.7%) 
+hdr faces              427/65536       23912/3670016  ( 0.7%) 
+origfaces              139/65536        7784/3670016  ( 0.2%) 
+facebrushes             24/0              48/0        ( 0.0%) 
+facebrushlists         427/0            1708/0        ( 0.0%) 
+leaves                 307/65536        9824/2097152  ( 0.5%) 
+leaffaces              460/65536         920/131072   ( 0.7%) 
+leafbrushes            156/65536         312/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             2478/512000       9912/2048000  ( 0.5%) 
+edges                 1330/256000       5320/1024000  ( 0.5%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          2/8192          200/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             30/32768         300/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           405/65536         810/131072   ( 0.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     1698424/0        ( 0.0%) 
+visdata               [variable]        5666/16777216 ( 0.0%) 
+entdata               [variable]         641/393216   ( 0.2%) 
+LDR ambient table      307/65536        1228/262144   ( 0.5%) 
+HDR ambient table      307/65536        1228/262144   ( 0.5%) 
+LDR leaf ambient       307/65536        8596/1835008  ( 0.5%) 
+HDR leaf ambient      1809/65536       50652/1835008  ( 2.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74466/0        ( 0.0%) 
+physics               [variable]       13687/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7e
+
+Total triangle count: 1068
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 13
+Brush 546: no visible sides on brush
+Brush 546: no visible sides on brush
+Brush 546: no visible sides on brush
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (13687 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 17 texinfos to 15
+Reduced 4 texdatas to 4 (152 bytes to 152)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+ 134 portalclusters
+ 423 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 10 visible clusters (0.00%)
+Total clusters visible: 15546
+Average clusters visible: 116
+Building PAS...
+Average clusters audible: 134
+visdatasize:5666  compressed from 6432
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+427 faces
+850160 square feet [122423048.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+427 patches before subdivision
+15397 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 264688, max 345
+transfer lists:   2.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(25713, 12664, 7391)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2907, 1338, 685)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(689, 262, 167)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(111, 37, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(34, 13, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(6, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0059 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 38/8192          456/98304    ( 0.5%) 
+brushsides             237/81920        1896/655360   ( 0.3%) 
+planes                 198/65536        3960/1310720  ( 0.3%) 
+vertexes               583/65536        6996/786432   ( 0.9%) 
+nodes                  305/65536        9760/2097152  ( 0.5%) 
+texinfos                15/12288        1080/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  427/65536       23912/3670016  ( 0.7%) 
+hdr faces              427/65536       23912/3670016  ( 0.7%) 
+origfaces              139/65536        7784/3670016  ( 0.2%) 
+facebrushes             24/0              48/0        ( 0.0%) 
+facebrushlists         427/0            1708/0        ( 0.0%) 
+leaves                 307/65536        9824/2097152  ( 0.5%) 
+leaffaces              460/65536         920/131072   ( 0.7%) 
+leafbrushes            156/65536         312/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             2478/512000       9912/2048000  ( 0.5%) 
+edges                 1330/256000       5320/1024000  ( 0.5%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          2/8192          200/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             30/32768         300/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           405/65536         810/131072   ( 0.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     1698424/0        ( 0.0%) 
+visdata               [variable]        5666/16777216 ( 0.0%) 
+entdata               [variable]         641/393216   ( 0.2%) 
+LDR ambient table      307/65536        1228/262144   ( 0.5%) 
+HDR ambient table      307/65536        1228/262144   ( 0.5%) 
+LDR leaf ambient       307/65536        8596/1835008  ( 0.5%) 
+HDR leaf ambient      1809/65536       50652/1835008  ( 2.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74466/0        ( 0.0%) 
+physics               [variable]       13687/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7e
+
+Total triangle count: 1068
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 14
+Brush 546: no visible sides on brush
+Brush 546: no visible sides on brush
+Brush 546: no visible sides on brush
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (14015 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 17 texinfos to 15
+Reduced 4 texdatas to 4 (152 bytes to 152)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+ 134 portalclusters
+ 422 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 10 visible clusters (0.00%)
+Total clusters visible: 15546
+Average clusters visible: 116
+Building PAS...
+Average clusters audible: 134
+visdatasize:5666  compressed from 6432
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+429 faces
+850202 square feet [122429192.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+429 patches before subdivision
+15403 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 265791, max 345
+transfer lists:   2.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(25703, 12667, 7399)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2907, 1339, 686)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(688, 262, 167)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(111, 37, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(34, 13, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(6, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0060 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 39/8192          468/98304    ( 0.5%) 
+brushsides             243/81920        1944/655360   ( 0.3%) 
+planes                 200/65536        4000/1310720  ( 0.3%) 
+vertexes               587/65536        7044/786432   ( 0.9%) 
+nodes                  306/65536        9792/2097152  ( 0.5%) 
+texinfos                15/12288        1080/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  429/65536       24024/3670016  ( 0.7%) 
+hdr faces              429/65536       24024/3670016  ( 0.7%) 
+origfaces              142/65536        7952/3670016  ( 0.2%) 
+facebrushes             27/0              54/0        ( 0.0%) 
+facebrushlists         429/0            1716/0        ( 0.0%) 
+leaves                 308/65536        9856/2097152  ( 0.5%) 
+leaffaces              462/65536         924/131072   ( 0.7%) 
+leafbrushes            157/65536         314/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             2506/512000      10024/2048000  ( 0.5%) 
+edges                 1350/256000       5400/1024000  ( 0.5%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          2/8192          200/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             31/32768         310/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           426/65536         852/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     1699272/0        ( 0.0%) 
+visdata               [variable]        5666/16777216 ( 0.0%) 
+entdata               [variable]         641/393216   ( 0.2%) 
+LDR ambient table      308/65536        1232/262144   ( 0.5%) 
+HDR ambient table      308/65536        1232/262144   ( 0.5%) 
+LDR leaf ambient       308/65536        8624/1835008  ( 0.5%) 
+HDR leaf ambient      1809/65536       50652/1835008  ( 2.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74466/0        ( 0.0%) 
+physics               [variable]       14015/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7e
+
+Total triangle count: 1080
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 14
+Brush 546: no visible sides on brush
+Brush 546: no visible sides on brush
+Brush 546: no visible sides on brush
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (14015 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 17 texinfos to 15
+Reduced 4 texdatas to 4 (152 bytes to 152)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+ 134 portalclusters
+ 422 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 10 visible clusters (0.00%)
+Total clusters visible: 15546
+Average clusters visible: 116
+Building PAS...
+Average clusters audible: 134
+visdatasize:5666  compressed from 6432
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+429 faces
+850202 square feet [122429192.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+429 patches before subdivision
+15403 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 265791, max 345
+transfer lists:   2.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(25703, 12667, 7399)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2907, 1339, 686)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(688, 262, 167)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(111, 37, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(34, 13, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(6, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0059 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 39/8192          468/98304    ( 0.5%) 
+brushsides             243/81920        1944/655360   ( 0.3%) 
+planes                 200/65536        4000/1310720  ( 0.3%) 
+vertexes               587/65536        7044/786432   ( 0.9%) 
+nodes                  306/65536        9792/2097152  ( 0.5%) 
+texinfos                15/12288        1080/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  429/65536       24024/3670016  ( 0.7%) 
+hdr faces              429/65536       24024/3670016  ( 0.7%) 
+origfaces              142/65536        7952/3670016  ( 0.2%) 
+facebrushes             27/0              54/0        ( 0.0%) 
+facebrushlists         429/0            1716/0        ( 0.0%) 
+leaves                 308/65536        9856/2097152  ( 0.5%) 
+leaffaces              462/65536         924/131072   ( 0.7%) 
+leafbrushes            157/65536         314/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             2506/512000      10024/2048000  ( 0.5%) 
+edges                 1350/256000       5400/1024000  ( 0.5%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          2/8192          200/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             31/32768         310/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           426/65536         852/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     1699272/0        ( 0.0%) 
+visdata               [variable]        5666/16777216 ( 0.0%) 
+entdata               [variable]         641/393216   ( 0.2%) 
+LDR ambient table      308/65536        1232/262144   ( 0.5%) 
+HDR ambient table      308/65536        1232/262144   ( 0.5%) 
+LDR leaf ambient       308/65536        8624/1835008  ( 0.5%) 
+HDR leaf ambient      1809/65536       50652/1835008  ( 2.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74466/0        ( 0.0%) 
+physics               [variable]       14015/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7e
+
+Total triangle count: 1080
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 15
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (14751 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 17 texinfos to 15
+Reduced 4 texdatas to 4 (152 bytes to 152)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+ 136 portalclusters
+ 404 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 13 visible clusters (0.00%)
+Total clusters visible: 15287
+Average clusters visible: 112
+Building PAS...
+Average clusters audible: 136
+visdatasize:5712  compressed from 6528
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+445 faces
+850835 square feet [122520376.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+445 patches before subdivision
+14981 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 265203, max 350
+transfer lists:   2.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(23351, 11546, 6761)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2795, 1312, 691)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(629, 225, 139)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(112, 37, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(33, 11, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(6, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0075 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 40/8192          480/98304    ( 0.5%) 
+brushsides             243/81920        1944/655360   ( 0.3%) 
+planes                 192/65536        3840/1310720  ( 0.3%) 
+vertexes               620/65536        7440/786432   ( 0.9%) 
+nodes                  320/65536       10240/2097152  ( 0.5%) 
+texinfos                15/12288        1080/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  445/65536       24920/3670016  ( 0.7%) 
+hdr faces              445/65536       24920/3670016  ( 0.7%) 
+origfaces              146/65536        8176/3670016  ( 0.2%) 
+facebrushes             37/0              74/0        ( 0.0%) 
+facebrushlists         445/0            1780/0        ( 0.0%) 
+leaves                 322/65536       10304/2097152  ( 0.5%) 
+leaffaces              502/65536        1004/131072   ( 0.8%) 
+leafbrushes            170/65536         340/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             2602/512000      10408/2048000  ( 0.5%) 
+edges                 1402/256000       5608/1024000  ( 0.5%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          2/8192          200/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             38/32768         380/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           528/65536        1056/131072   ( 0.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     1711756/0        ( 0.0%) 
+visdata               [variable]        5712/16777216 ( 0.0%) 
+entdata               [variable]         641/393216   ( 0.2%) 
+LDR ambient table      322/65536        1288/262144   ( 0.5%) 
+HDR ambient table      322/65536        1288/262144   ( 0.5%) 
+LDR leaf ambient       322/65536        9016/1835008  ( 0.5%) 
+HDR leaf ambient      1772/65536       49616/1835008  ( 2.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74466/0        ( 0.0%) 
+physics               [variable]       14751/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7e
+
+Total triangle count: 1130
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 17
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_terrorist (-3979.06 2272.00 -66.37) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (12730 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 21 texinfos to 21
+Reduced 3 texdatas to 3 (134 bytes to 134)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+LoadPortals: couldn't read c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 19
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_terrorist (-3979.06 2272.00 -66.37) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (12730 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 21 texinfos to 21
+Reduced 3 texdatas to 3 (134 bytes to 134)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+LoadPortals: couldn't read c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 19
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_terrorist (-3979.06 2272.00 -66.37) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (12730 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 21 texinfos to 21
+Reduced 3 texdatas to 3 (134 bytes to 134)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+LoadPortals: couldn't read c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 20
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (14847 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 24 texinfos to 22
+Reduced 4 texdatas to 4 (152 bytes to 152)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+ 173 portalclusters
+ 476 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 8 visible clusters (0.00%)
+Total clusters visible: 21569
+Average clusters visible: 124
+Building PAS...
+Average clusters audible: 173
+visdatasize:8969  compressed from 8304
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+694 faces
+1009450 square feet [145360800.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+694 patches before subdivision
+27244 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 589491, max 459
+transfer lists:   4.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(43936, 22208, 13388)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(6046, 2587, 1154)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1415, 473, 281)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(280, 69, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(83, 23, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(17, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(6, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0145 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 40/8192          480/98304    ( 0.5%) 
+brushsides             243/81920        1944/655360   ( 0.3%) 
+planes                 204/65536        4080/1310720  ( 0.3%) 
+vertexes               902/65536       10824/786432   ( 1.4%) 
+nodes                  377/65536       12064/2097152  ( 0.6%) 
+texinfos                22/12288        1584/884736   ( 0.2%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  694/65536       38864/3670016  ( 1.1%) 
+hdr faces              694/65536       38864/3670016  ( 1.1%) 
+origfaces              158/65536        8848/3670016  ( 0.2%) 
+facebrushes             36/0              72/0        ( 0.0%) 
+facebrushlists         694/0            2776/0        ( 0.0%) 
+leaves                 379/65536       12128/2097152  ( 0.6%) 
+leaffaces              783/65536        1566/131072   ( 1.2%) 
+leafbrushes            190/65536         380/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             3724/512000      14896/2048000  ( 0.7%) 
+edges                 1953/256000       7812/1024000  ( 0.8%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          2/8192          200/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             49/32768         490/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           654/65536        1308/131072   ( 1.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     3954352/0        ( 0.0%) 
+visdata               [variable]        8969/16777216 ( 0.1%) 
+entdata               [variable]         644/393216   ( 0.2%) 
+LDR ambient table      379/65536        1516/262144   ( 0.6%) 
+HDR ambient table      379/65536        1516/262144   ( 0.6%) 
+LDR leaf ambient       379/65536       10612/1835008  ( 0.6%) 
+HDR leaf ambient      2361/65536       66108/1835008  ( 3.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74466/0        ( 0.0%) 
+physics               [variable]       14847/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7e
+
+Total triangle count: 1706
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+3 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 21
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_terrorist (-3979.06 2272.00 -66.37) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (12862 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 26 texinfos to 25
+Reduced 4 texdatas to 4 (143 bytes to 143)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+LoadPortals: couldn't read c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 22
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (14979 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 29 texinfos to 26
+Reduced 5 texdatas to 5 (161 bytes to 161)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+ 163 portalclusters
+ 431 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 12 visible clusters (0.00%)
+Total clusters visible: 18893
+Average clusters visible: 115
+Building PAS...
+Average clusters audible: 163
+visdatasize:8238  compressed from 7824
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+682 faces
+1006709 square feet [144966096.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+682 patches before subdivision
+27158 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 566221, max 439
+transfer lists:   4.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(44464, 22651, 13795)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(5942, 2534, 1119)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1445, 484, 288)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(283, 70, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(85, 23, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(18, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(6, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0143 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 41/8192          492/98304    ( 0.5%) 
+brushsides             249/81920        1992/655360   ( 0.3%) 
+planes                 196/65536        3920/1310720  ( 0.3%) 
+vertexes               892/65536       10704/786432   ( 1.4%) 
+nodes                  367/65536       11744/2097152  ( 0.6%) 
+texinfos                26/12288        1872/884736   ( 0.2%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  682/65536       38192/3670016  ( 1.0%) 
+hdr faces              682/65536       38192/3670016  ( 1.0%) 
+origfaces              145/65536        8120/3670016  ( 0.2%) 
+facebrushes             41/0              82/0        ( 0.0%) 
+facebrushlists         682/0            2728/0        ( 0.0%) 
+leaves                 369/65536       11808/2097152  ( 0.6%) 
+leaffaces              761/65536        1522/131072   ( 1.2%) 
+leafbrushes            191/65536         382/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             3608/512000      14432/2048000  ( 0.7%) 
+edges                 1915/256000       7660/1024000  ( 0.7%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          2/8192          200/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             49/32768         490/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           639/65536        1278/131072   ( 1.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     3905324/0        ( 0.0%) 
+visdata               [variable]        8238/16777216 ( 0.0%) 
+entdata               [variable]         644/393216   ( 0.2%) 
+LDR ambient table      369/65536        1476/262144   ( 0.6%) 
+HDR ambient table      369/65536        1476/262144   ( 0.6%) 
+LDR leaf ambient       369/65536       10332/1835008  ( 0.6%) 
+HDR leaf ambient      2265/65536       63420/1835008  ( 3.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74466/0        ( 0.0%) 
+physics               [variable]       14979/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7e
+
+Total triangle count: 1666
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+3 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 23
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (17783 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 33 texinfos to 29
+Reduced 4 texdatas to 4 (152 bytes to 152)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+ 177 portalclusters
+ 488 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 18 visible clusters (0.00%)
+Total clusters visible: 22659
+Average clusters visible: 128
+Building PAS...
+Average clusters audible: 177
+visdatasize:9622  compressed from 8496
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+721 faces
+1013464 square feet [145938928.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+721 patches before subdivision
+28137 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 714579, max 443
+transfer lists:   5.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(57559, 26810, 14397)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(11682, 3399, 1232)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(3127, 488, 205)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(990, 84, 32)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(413, 19, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(165, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(101, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(47, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(36, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(17, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0156 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 49/8192          588/98304    ( 0.6%) 
+brushsides             298/81920        2384/655360   ( 0.4%) 
+planes                 228/65536        4560/1310720  ( 0.3%) 
+vertexes               961/65536       11532/786432   ( 1.5%) 
+nodes                  394/65536       12608/2097152  ( 0.6%) 
+texinfos                29/12288        2088/884736   ( 0.2%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  721/65536       40376/3670016  ( 1.1%) 
+hdr faces              721/65536       40376/3670016  ( 1.1%) 
+origfaces              175/65536        9800/3670016  ( 0.3%) 
+facebrushes             65/0             130/0        ( 0.0%) 
+facebrushlists         721/0            2884/0        ( 0.0%) 
+leaves                 396/65536       12672/2097152  ( 0.6%) 
+leaffaces              815/65536        1630/131072   ( 1.2%) 
+leafbrushes            206/65536         412/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             3932/512000      15728/2048000  ( 0.8%) 
+edges                 2104/256000       8416/1024000  ( 0.8%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          2/8192          200/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             57/32768         570/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           789/65536        1578/131072   ( 1.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     4011528/0        ( 0.0%) 
+visdata               [variable]        9622/16777216 ( 0.1%) 
+entdata               [variable]         644/393216   ( 0.2%) 
+LDR ambient table      396/65536        1584/262144   ( 0.6%) 
+HDR ambient table      396/65536        1584/262144   ( 0.6%) 
+LDR leaf ambient       396/65536       11088/1835008  ( 0.6%) 
+HDR leaf ambient      2512/65536       70336/1835008  ( 3.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74466/0        ( 0.0%) 
+physics               [variable]       17783/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7e
+
+Total triangle count: 1794
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+4 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 24
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (17767 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 34 texinfos to 31
+Reduced 4 texdatas to 4 (152 bytes to 152)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+ 177 portalclusters
+ 488 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 19 visible clusters (0.00%)
+Total clusters visible: 22696
+Average clusters visible: 128
+Building PAS...
+Average clusters audible: 177
+visdatasize:9621  compressed from 8496
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+723 faces
+1012177 square feet [145753552.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+723 patches before subdivision
+27985 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 696963, max 443
+transfer lists:   5.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(54138, 25342, 13707)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10950, 3231, 1183)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(3003, 469, 202)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(980, 81, 32)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(420, 18, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(171, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(106, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(49, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(37, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(18, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(15, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0153 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 49/8192          588/98304    ( 0.6%) 
+brushsides             298/81920        2384/655360   ( 0.4%) 
+planes                 226/65536        4520/1310720  ( 0.3%) 
+vertexes               959/65536       11508/786432   ( 1.5%) 
+nodes                  394/65536       12608/2097152  ( 0.6%) 
+texinfos                31/12288        2232/884736   ( 0.3%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  723/65536       40488/3670016  ( 1.1%) 
+hdr faces              723/65536       40488/3670016  ( 1.1%) 
+origfaces              176/65536        9856/3670016  ( 0.3%) 
+facebrushes             59/0             118/0        ( 0.0%) 
+facebrushlists         723/0            2892/0        ( 0.0%) 
+leaves                 396/65536       12672/2097152  ( 0.6%) 
+leaffaces              817/65536        1634/131072   ( 1.2%) 
+leafbrushes            206/65536         412/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             3940/512000      15760/2048000  ( 0.8%) 
+edges                 2106/256000       8424/1024000  ( 0.8%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          2/8192          200/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             56/32768         560/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           774/65536        1548/131072   ( 1.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     3993976/0        ( 0.0%) 
+visdata               [variable]        9621/16777216 ( 0.1%) 
+entdata               [variable]         644/393216   ( 0.2%) 
+LDR ambient table      396/65536        1584/262144   ( 0.6%) 
+HDR ambient table      396/65536        1584/262144   ( 0.6%) 
+LDR leaf ambient       396/65536       11088/1835008  ( 0.6%) 
+HDR leaf ambient      2499/65536       69972/1835008  ( 3.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74466/0        ( 0.0%) 
+physics               [variable]       17767/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7e
+
+Total triangle count: 1794
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+4 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 26
+Brush 1206: FloatPlane: bad normal
+Side 5
+Texture: BL4ZE91MAPPING/DEV/BL4_MEASUREGENERIC_ORANGE2
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 26
+Brush 1206: FloatPlane: bad normal
+Side 5
+Texture: BL4ZE91MAPPING/DEV/BL4_MEASUREGENERIC_ORANGE2
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 26
+Brush 1206: FloatPlane: bad normal
+Side 5
+Texture: BL4ZE91MAPPING/DEV/BL4_MEASUREGENERIC_ORANGE2
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 26
+Brush 1206: FloatPlane: bad normal
+Side 5
+Texture: BL4ZE91MAPPING/DEV/BL4_MEASUREGENERIC_ORANGE2
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 27
+Brush 1206: FloatPlane: bad normal
+Side 5
+Texture: BL4ZE91MAPPING/DEV/BL4_MEASUREGENERIC_ORANGE2
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 28
+Brush 1206: FloatPlane: bad normal
+Side 5
+Texture: BL4ZE91MAPPING/DEV/BL4_MEASUREGENERIC_ORANGE2
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 29
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (29519 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 51 texinfos to 44
+Reduced 6 texdatas to 6 (241 bytes to 241)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+ 263 portalclusters
+ 777 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 30
+Brush 1206: FloatPlane: bad normal
+Side 5
+Texture: BL4ZE91MAPPING/DEV/BL4_MEASUREGENERIC_ORANGE2
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 31
+Brush 1206: FloatPlane: bad normal
+Side 5
+Texture: BL4ZE91MAPPING/DEV/BL4_MEASUREGENERIC_ORANGE2
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 32
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (30295 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 51 texinfos to 44
+Reduced 6 texdatas to 6 (241 bytes to 241)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+ 254 portalclusters
+ 749 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 33
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (30575 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 51 texinfos to 44
+Reduced 6 texdatas to 6 (241 bytes to 241)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+ 263 portalclusters
+ 771 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5..
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 34
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (30855 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 51 texinfos to 44
+Reduced 6 texdatas to 6 (241 bytes to 241)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+ 261 portalclusters
+ 763 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5.
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 35
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (31247 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 51 texinfos to 44
+Reduced 6 texdatas to 6 (241 bytes to 241)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+ 260 portalclusters
+ 766 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 61 visible clusters (0.00%)
+Total clusters visible: 45794
+Average clusters visible: 176
+Building PAS...
+Average clusters audible: 260
+visdatasize:18956  compressed from 20800
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+9 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+946 faces
+1032907 square feet [148738608.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+946 patches before subdivision
+31292 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1275580, max 458
+transfer lists:   9.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(87644, 43902, 26361)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(19482, 5314, 1401)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(8211, 1218, 224)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2869, 188, 26)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1547, 59, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(593, 10, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(331, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(134, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(74, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(31, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(17, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0153 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 90/8192         1080/98304    ( 1.1%) 
+brushsides             622/81920        4976/655360   ( 0.8%) 
+planes                 406/65536        8120/1310720  ( 0.6%) 
+vertexes              1335/65536       16020/786432   ( 2.0%) 
+nodes                  564/65536       18048/2097152  ( 0.9%) 
+texinfos                44/12288        3168/884736   ( 0.4%) 
+texdata                  6/4096          192/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  946/65536       52976/3670016  ( 1.4%) 
+hdr faces              946/65536       52976/3670016  ( 1.4%) 
+origfaces              279/65536       15624/3670016  ( 0.4%) 
+facebrushes             80/0             160/0        ( 0.0%) 
+facebrushlists         946/0            3784/0        ( 0.0%) 
+leaves                 566/65536       18112/2097152  ( 0.9%) 
+leaffaces             1076/65536        2152/131072   ( 1.6%) 
+leafbrushes            350/65536         700/131072   ( 0.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5408/512000      21632/2048000  ( 1.1%) 
+edges                 2927/256000      11708/1024000  ( 1.1%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          2/8192          200/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             81/32768         810/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1149/65536        2298/131072   ( 1.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     4224276/0        ( 0.0%) 
+visdata               [variable]       18956/16777216 ( 0.1%) 
+entdata               [variable]         644/393216   ( 0.2%) 
+LDR ambient table      566/65536        2264/262144   ( 0.9%) 
+HDR ambient table      566/65536        2264/262144   ( 0.9%) 
+LDR leaf ambient       566/65536       15848/1835008  ( 0.9%) 
+HDR leaf ambient      3180/65536       89040/1835008  ( 4.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74466/0        ( 0.0%) 
+physics               [variable]       31247/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7e
+
+Total triangle count: 2424
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+5 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 36
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (31591 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 51 texinfos to 44
+Reduced 6 texdatas to 6 (241 bytes to 241)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+ 258 portalclusters
+ 780 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 58 visible clusters (0.00%)
+Total clusters visible: 45449
+Average clusters visible: 176
+Building PAS...
+Average clusters audible: 258
+visdatasize:18799  compressed from 20640
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+33 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+947 faces
+1032882 square feet [148735008.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+947 patches before subdivision
+31335 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1286564, max 458
+transfer lists:   9.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(90524, 45991, 28057)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(20446, 5587, 1520)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(8629, 1258, 236)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3115, 194, 28)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1670, 60, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(658, 10, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(366, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(151, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(83, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(36, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(20, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0150 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 91/8192         1092/98304    ( 1.1%) 
+brushsides             628/81920        5024/655360   ( 0.8%) 
+planes                 410/65536        8200/1310720  ( 0.6%) 
+vertexes              1336/65536       16032/786432   ( 2.0%) 
+nodes                  558/65536       17856/2097152  ( 0.9%) 
+texinfos                44/12288        3168/884736   ( 0.4%) 
+texdata                  6/4096          192/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  947/65536       53032/3670016  ( 1.4%) 
+hdr faces              947/65536       53032/3670016  ( 1.4%) 
+origfaces              282/65536       15792/3670016  ( 0.4%) 
+facebrushes             82/0             164/0        ( 0.0%) 
+facebrushlists         947/0            3788/0        ( 0.0%) 
+leaves                 560/65536       17920/2097152  ( 0.9%) 
+leaffaces             1075/65536        2150/131072   ( 1.6%) 
+leafbrushes            349/65536         698/131072   ( 0.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5418/512000      21672/2048000  ( 1.1%) 
+edges                 2934/256000      11736/1024000  ( 1.1%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          3/8192          300/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             86/32768         860/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1194/65536        2388/131072   ( 1.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     4227668/0        ( 0.0%) 
+visdata               [variable]       18799/16777216 ( 0.1%) 
+entdata               [variable]         973/393216   ( 0.2%) 
+LDR ambient table      560/65536        2240/262144   ( 0.9%) 
+HDR ambient table      560/65536        2240/262144   ( 0.9%) 
+LDR leaf ambient       560/65536       15680/1835008  ( 0.9%) 
+HDR leaf ambient      3237/65536       90636/1835008  ( 4.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74466/0        ( 0.0%) 
+physics               [variable]       31591/4194304  ( 0.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7e
+
+Total triangle count: 2420
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+6 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 39
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_terrorist (-3979.06 2272.00 -66.37) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (50970 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 83 texinfos to 72
+Reduced 5 texdatas to 5 (223 bytes to 223)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+LoadPortals: couldn't read c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 39
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_terrorist (-3979.06 2272.00 -66.37) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (50970 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 83 texinfos to 72
+Reduced 5 texdatas to 5 (223 bytes to 223)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+LoadPortals: couldn't read c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 39
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_terrorist (-3979.06 2272.00 -66.37) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (50970 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 83 texinfos to 72
+Reduced 5 texdatas to 5 (223 bytes to 223)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+LoadPortals: couldn't read c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 40
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_terrorist (-3979.06 2272.00 -66.37) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (53594 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 83 texinfos to 73
+Reduced 5 texdatas to 5 (223 bytes to 223)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+LoadPortals: couldn't read c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 41
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (55711 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 86 texinfos to 74
+Reduced 6 texdatas to 6 (241 bytes to 241)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+ 352 portalclusters
+1088 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 235 visible clusters (0.00%)
+Total clusters visible: 73538
+Average clusters visible: 208
+Building PAS...
+Average clusters audible: 351
+visdatasize:33103  compressed from 33792
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+1 minute, 53 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+1274 faces
+1 degenerate faces
+1058808 square feet [152468480.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1273 patches before subdivision
+38323 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1993368, max 429
+transfer lists:  15.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(112265, 52829, 28783)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(16794, 5414, 2205)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(5900, 743, 202)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1677, 110, 28)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(844, 19, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(294, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(165, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(62, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(36, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0164 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                163/8192         1956/98304    ( 2.0%) 
+brushsides            1099/81920        8792/655360   ( 1.3%) 
+planes                 612/65536       12240/1310720  ( 0.9%) 
+vertexes              1854/65536       22248/786432   ( 2.8%) 
+nodes                  778/65536       24896/2097152  ( 1.2%) 
+texinfos                74/12288        5328/884736   ( 0.6%) 
+texdata                  6/4096          192/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1274/65536       71344/3670016  ( 1.9%) 
+hdr faces             1274/65536       71344/3670016  ( 1.9%) 
+origfaces              483/65536       27048/3670016  ( 0.7%) 
+facebrushes            126/0             252/0        ( 0.0%) 
+facebrushlists        1274/0            5096/0        ( 0.0%) 
+leaves                 780/65536       24960/2097152  ( 1.2%) 
+leaffaces             1420/65536        2840/131072   ( 2.2%) 
+leafbrushes            545/65536        1090/131072   ( 0.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             7802/512000      31208/2048000  ( 1.5%) 
+edges                 4286/256000      17144/1024000  ( 1.7%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          4/8192          400/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             95/32768         950/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1428/65536        2856/131072   ( 2.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     4595928/0        ( 0.0%) 
+visdata               [variable]       33103/16777216 ( 0.2%) 
+entdata               [variable]        1299/393216   ( 0.3%) 
+LDR ambient table      780/65536        3120/262144   ( 1.2%) 
+HDR ambient table      780/65536        3120/262144   ( 1.2%) 
+LDR leaf ambient       780/65536       21840/1835008  ( 1.2%) 
+HDR leaf ambient      4054/65536      113512/1835008  ( 6.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74466/0        ( 0.0%) 
+physics               [variable]       55711/4194304  ( 1.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7e
+
+Total triangle count: 3354
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+7 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 42
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (61351 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 86 texinfos to 70
+Reduced 6 texdatas to 6 (241 bytes to 241)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+ 380 portalclusters
+1161 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 308 visible clusters (0.00%)
+Total clusters visible: 81481
+Average clusters visible: 214
+Building PAS...
+Average clusters audible: 377
+visdatasize:38515  compressed from 36480
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+1 minute, 4 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+1383 faces
+1071403 square feet [154282160.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1383 patches before subdivision
+40743 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2159595, max 430
+transfer lists:  16.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(118669, 57085, 32202)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(24321, 6788, 2164)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(8588, 1018, 210)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3094, 168, 28)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1416, 30, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(559, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(276, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(112, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(57, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(24, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(12, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0180 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                178/8192         2136/98304    ( 2.2%) 
+brushsides            1197/81920        9576/655360   ( 1.5%) 
+planes                 650/65536       13000/1310720  ( 1.0%) 
+vertexes              2040/65536       24480/786432   ( 3.1%) 
+nodes                  827/65536       26464/2097152  ( 1.3%) 
+texinfos                70/12288        5040/884736   ( 0.6%) 
+texdata                  6/4096          192/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1383/65536       77448/3670016  ( 2.1%) 
+hdr faces             1383/65536       77448/3670016  ( 2.1%) 
+origfaces              540/65536       30240/3670016  ( 0.8%) 
+facebrushes            160/0             320/0        ( 0.0%) 
+facebrushlists        1383/0            5532/0        ( 0.0%) 
+leaves                 829/65536       26528/2097152  ( 1.3%) 
+leaffaces             1562/65536        3124/131072   ( 2.4%) 
+leafbrushes            563/65536        1126/131072   ( 0.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             8582/512000      34328/2048000  ( 1.7%) 
+edges                 4719/256000      18876/1024000  ( 1.8%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          4/8192          400/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            100/32768        1000/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1569/65536        3138/131072   ( 2.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     4791964/0        ( 0.0%) 
+visdata               [variable]       38515/16777216 ( 0.2%) 
+entdata               [variable]        1299/393216   ( 0.3%) 
+LDR ambient table      829/65536        3316/262144   ( 1.3%) 
+HDR ambient table      829/65536        3316/262144   ( 1.3%) 
+LDR leaf ambient       829/65536       23212/1835008  ( 1.3%) 
+HDR leaf ambient      4293/65536      120204/1835008  ( 6.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74466/0        ( 0.0%) 
+physics               [variable]       61351/4194304  ( 1.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7e
+
+Total triangle count: 3690
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+8 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 44
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (76823 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 94 texinfos to 76
+Reduced 7 texdatas to 7 (285 bytes to 285)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+ 438 portalclusters
+1343 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 548 visible clusters (0.00%)
+Total clusters visible: 101733
+Average clusters visible: 232
+Building PAS...
+Average clusters audible: 437
+visdatasize:50446  compressed from 49056
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+3 minutes, 8 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+1590 faces
+1076130 square feet [154962848.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1590 patches before subdivision
+41426 patches after subdivision
+6 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2338629, max 436
+transfer lists:  17.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(124803, 60325, 34254)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(24694, 6930, 2227)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(8669, 1020, 211)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3105, 166, 28)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1432, 29, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(561, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(279, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(112, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(57, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(24, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(12, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0196 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                222/8192         2664/98304    ( 2.7%) 
+brushsides            1485/81920       11880/655360   ( 1.8%) 
+planes                 768/65536       15360/1310720  ( 1.2%) 
+vertexes              2392/65536       28704/786432   ( 3.6%) 
+nodes                  959/65536       30688/2097152  ( 1.5%) 
+texinfos                76/12288        5472/884736   ( 0.6%) 
+texdata                  7/4096          224/131072   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1590/65536       89040/3670016  ( 2.4%) 
+hdr faces             1590/65536       89040/3670016  ( 2.4%) 
+origfaces              661/65536       37016/3670016  ( 1.0%) 
+facebrushes            183/0             366/0        ( 0.0%) 
+facebrushlists        1590/0            6360/0        ( 0.0%) 
+leaves                 961/65536       30752/2097152  ( 1.5%) 
+leaffaces             1782/65536        3564/131072   ( 2.7%) 
+leafbrushes            657/65536        1314/131072   ( 1.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            10071/512000      40284/2048000  ( 2.0%) 
+edges                 5613/256000      22452/1024000  ( 2.2%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          6/8192          600/819200   ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            123/32768        1230/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1914/65536        3828/131072   ( 2.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     4975304/0        ( 0.0%) 
+visdata               [variable]       50446/16777216 ( 0.3%) 
+entdata               [variable]        1957/393216   ( 0.5%) 
+LDR ambient table      961/65536        3844/262144   ( 1.5%) 
+HDR ambient table      961/65536        3844/262144   ( 1.5%) 
+LDR leaf ambient       961/65536       26908/1835008  ( 1.5%) 
+HDR leaf ambient      4870/65536      136360/1835008  ( 7.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74466/0        ( 0.0%) 
+physics               [variable]       76823/4194304  ( 1.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7e
+
+Total triangle count: 4284
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+9 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 46
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (77135 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 94 texinfos to 78
+Reduced 7 texdatas to 7 (285 bytes to 285)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+ 440 portalclusters
+1355 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8..
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 47
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (77135 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 94 texinfos to 78
+Reduced 7 texdatas to 7 (285 bytes to 285)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+ 440 portalclusters
+1355 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 549 visible clusters (0.00%)
+Total clusters visible: 101198
+Average clusters visible: 229
+Building PAS...
+Average clusters audible: 439
+visdatasize:50565  compressed from 49280
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+5 minutes, 8 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+1611 faces
+1077836 square feet [155208384.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1611 patches before subdivision
+42159 patches after subdivision
+7 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2394068, max 432
+transfer lists:  18.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(128681, 62420, 35616)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(25425, 7109, 2287)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(8955, 1044, 216)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3218, 170, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1482, 30, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(583, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(289, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(116, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(59, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(24, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0205 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                223/8192         2676/98304    ( 2.7%) 
+brushsides            1491/81920       11928/655360   ( 1.8%) 
+planes                 772/65536       15440/1310720  ( 1.2%) 
+vertexes              2413/65536       28956/786432   ( 3.7%) 
+nodes                  966/65536       30912/2097152  ( 1.5%) 
+texinfos                78/12288        5616/884736   ( 0.6%) 
+texdata                  7/4096          224/131072   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1611/65536       90216/3670016  ( 2.5%) 
+hdr faces             1611/65536       90216/3670016  ( 2.5%) 
+origfaces              670/65536       37520/3670016  ( 1.0%) 
+facebrushes            179/0             358/0        ( 0.0%) 
+facebrushlists        1611/0            6444/0        ( 0.0%) 
+leaves                 968/65536       30976/2097152  ( 1.5%) 
+leaffaces             1796/65536        3592/131072   ( 2.7%) 
+leafbrushes            658/65536        1316/131072   ( 1.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            10201/512000      40804/2048000  ( 2.0%) 
+edges                 5680/256000      22720/1024000  ( 2.2%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          7/8192          700/819200   ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            123/32768        1230/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1884/65536        3768/131072   ( 2.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     5001828/0        ( 0.0%) 
+visdata               [variable]       50565/16777216 ( 0.3%) 
+entdata               [variable]        3282/393216   ( 0.8%) 
+LDR ambient table      968/65536        3872/262144   ( 1.5%) 
+HDR ambient table      968/65536        3872/262144   ( 1.5%) 
+LDR leaf ambient       968/65536       27104/1835008  ( 1.5%) 
+HDR leaf ambient      4941/65536      138348/1835008  ( 7.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74466/0        ( 0.0%) 
+physics               [variable]       77135/4194304  ( 1.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7e
+
+Total triangle count: 4336
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+13 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 47
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (77135 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 94 texinfos to 78
+Reduced 7 texdatas to 7 (285 bytes to 285)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+ 440 portalclusters
+1355 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 551 visible clusters (0.00%)
+Total clusters visible: 101202
+Average clusters visible: 230
+Building PAS...
+Average clusters audible: 439
+visdatasize:50565  compressed from 49280
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+4 minutes, 19 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+1611 faces
+1077836 square feet [155208384.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1611 patches before subdivision
+42159 patches after subdivision
+7 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2394068, max 432
+transfer lists:  18.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(128689, 62423, 35617)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(25427, 7109, 2287)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(8956, 1044, 216)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3219, 170, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1482, 30, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(583, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(289, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(116, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(59, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(24, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0180 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                223/8192         2676/98304    ( 2.7%) 
+brushsides            1491/81920       11928/655360   ( 1.8%) 
+planes                 772/65536       15440/1310720  ( 1.2%) 
+vertexes              2413/65536       28956/786432   ( 3.7%) 
+nodes                  966/65536       30912/2097152  ( 1.5%) 
+texinfos                78/12288        5616/884736   ( 0.6%) 
+texdata                  7/4096          224/131072   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1611/65536       90216/3670016  ( 2.5%) 
+hdr faces             1611/65536       90216/3670016  ( 2.5%) 
+origfaces              670/65536       37520/3670016  ( 1.0%) 
+facebrushes            179/0             358/0        ( 0.0%) 
+facebrushlists        1611/0            6444/0        ( 0.0%) 
+leaves                 968/65536       30976/2097152  ( 1.5%) 
+leaffaces             1796/65536        3592/131072   ( 2.7%) 
+leafbrushes            658/65536        1316/131072   ( 1.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            10201/512000      40804/2048000  ( 2.0%) 
+edges                 5680/256000      22720/1024000  ( 2.2%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          7/8192          700/819200   ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            123/32768        1230/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1884/65536        3768/131072   ( 2.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     5001828/0        ( 0.0%) 
+visdata               [variable]       50565/16777216 ( 0.3%) 
+entdata               [variable]        3282/393216   ( 0.8%) 
+LDR ambient table      968/65536        3872/262144   ( 1.5%) 
+HDR ambient table      968/65536        3872/262144   ( 1.5%) 
+LDR leaf ambient       968/65536       27104/1835008  ( 1.5%) 
+HDR leaf ambient      4941/65536      138348/1835008  ( 7.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74466/0        ( 0.0%) 
+physics               [variable]       77135/4194304  ( 1.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7e
+
+Total triangle count: 4336
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+9 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 48
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (77135 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 94 texinfos to 78
+Reduced 7 texdatas to 7 (285 bytes to 285)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+ 440 portalclusters
+1355 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 548 visible clusters (0.00%)
+Total clusters visible: 101199
+Average clusters visible: 229
+Building PAS...
+Average clusters audible: 439
+visdatasize:50565  compressed from 49280
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+4 minutes, 36 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+1611 faces
+1077836 square feet [155208384.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1611 patches before subdivision
+42159 patches after subdivision
+7 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2394068, max 432
+transfer lists:  18.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(128681, 62420, 35616)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(25425, 7109, 2287)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(8955, 1044, 216)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3218, 170, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1482, 30, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(583, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(289, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(116, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(59, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(24, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0198 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                223/8192         2676/98304    ( 2.7%) 
+brushsides            1491/81920       11928/655360   ( 1.8%) 
+planes                 772/65536       15440/1310720  ( 1.2%) 
+vertexes              2413/65536       28956/786432   ( 3.7%) 
+nodes                  966/65536       30912/2097152  ( 1.5%) 
+texinfos                78/12288        5616/884736   ( 0.6%) 
+texdata                  7/4096          224/131072   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1611/65536       90216/3670016  ( 2.5%) 
+hdr faces             1611/65536       90216/3670016  ( 2.5%) 
+origfaces              670/65536       37520/3670016  ( 1.0%) 
+facebrushes            179/0             358/0        ( 0.0%) 
+facebrushlists        1611/0            6444/0        ( 0.0%) 
+leaves                 968/65536       30976/2097152  ( 1.5%) 
+leaffaces             1796/65536        3592/131072   ( 2.7%) 
+leafbrushes            658/65536        1316/131072   ( 1.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            10201/512000      40804/2048000  ( 2.0%) 
+edges                 5680/256000      22720/1024000  ( 2.2%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          7/8192          700/819200   ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            123/32768        1230/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1884/65536        3768/131072   ( 2.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     5001828/0        ( 0.0%) 
+visdata               [variable]       50565/16777216 ( 0.3%) 
+entdata               [variable]        2411/393216   ( 0.6%) 
+LDR ambient table      968/65536        3872/262144   ( 1.5%) 
+HDR ambient table      968/65536        3872/262144   ( 1.5%) 
+LDR leaf ambient       968/65536       27104/1835008  ( 1.5%) 
+HDR leaf ambient      4941/65536      138348/1835008  ( 7.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74466/0        ( 0.0%) 
+physics               [variable]       77135/4194304  ( 1.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7e
+
+Total triangle count: 4336
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+12 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 49
+Brush 3934: FloatPlane: bad normal
+Side 2
+Texture: BL4ZE91MAPPING/DEV/BL4_MEASUREGENERIC_GRAY2
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 51
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (86231 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 92 texinfos to 75
+Reduced 7 texdatas to 7 (285 bytes to 285)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+ 489 portalclusters
+1551 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 52
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (114215 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 108 texinfos to 89
+Reduced 7 texdatas to 7 (285 bytes to 285)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+ 636 portalclusters
+1977 numportals
+0...1...2...3...4...5...6...7...8...9...100...1.
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 53
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (114575 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 108 texinfos to 89
+Reduced 7 texdatas to 7 (285 bytes to 285)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+ 635 portalclusters
+1972 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 944 visible clusters (0.00%)
+Total clusters visible: 157849
+Average clusters visible: 248
+Building PAS...
+Average clusters audible: 627
+visdatasize:98273  compressed from 101600
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+9 minutes, 55 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+2201 faces
+2 degenerate faces
+1104633 square feet [159067280.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2199 patches before subdivision
+46081 patches after subdivision
+11 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3128319, max 498
+transfer lists:  23.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(151577, 72939, 41123)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(30341, 7904, 2403)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(11881, 1224, 229)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3940, 184, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1921, 34, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(696, 6, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(359, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(135, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(71, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(28, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(15, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0208 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                329/8192         3948/98304    ( 4.0%) 
+brushsides            2179/81920       17432/655360   ( 2.7%) 
+planes                 986/65536       19720/1310720  ( 1.5%) 
+vertexes              3431/65536       41172/786432   ( 5.2%) 
+nodes                 1393/65536       44576/2097152  ( 2.1%) 
+texinfos                89/12288        6408/884736   ( 0.7%) 
+texdata                  7/4096          224/131072   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2201/65536      123256/3670016  ( 3.4%) 
+hdr faces             2201/65536      123256/3670016  ( 3.4%) 
+origfaces              986/65536       55216/3670016  ( 1.5%) 
+facebrushes            335/0             670/0        ( 0.0%) 
+facebrushlists        2201/0            8804/0        ( 0.0%) 
+leaves                1395/65536       44640/2097152  ( 2.1%) 
+leaffaces             2516/65536        5032/131072   ( 3.8%) 
+leafbrushes           1028/65536        2056/131072   ( 1.6%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            14405/512000      57620/2048000  ( 2.8%) 
+edges                 8103/256000      32412/1024000  ( 3.2%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights         11/8192         1100/819200   ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            195/32768        1950/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3108/65536        6216/131072   ( 4.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     5510792/0        ( 0.0%) 
+visdata               [variable]       98273/16777216 ( 0.6%) 
+entdata               [variable]        3726/393216   ( 0.9%) 
+LDR ambient table     1395/65536        5580/262144   ( 2.1%) 
+HDR ambient table     1395/65536        5580/262144   ( 2.1%) 
+LDR leaf ambient      1395/65536       39060/1835008  ( 2.1%) 
+HDR leaf ambient      6454/65536      180712/1835008  ( 9.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74466/0        ( 0.0%) 
+physics               [variable]      114575/4194304  ( 2.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7e
+
+Total triangle count: 6100
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+15 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 55
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (152223 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 145 texinfos to 123
+Reduced 7 texdatas to 7 (285 bytes to 285)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+ 817 portalclusters
+2614 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 56
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (152223 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 145 texinfos to 123
+Reduced 7 texdatas to 7 (285 bytes to 285)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+ 801 portalclusters
+2514 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1349 visible clusters (0.00%)
+Total clusters visible: 218961
+Average clusters visible: 273
+Building PAS...
+Average clusters audible: 794
+visdatasize:153976  compressed from 166608
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+3 minutes, 45 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+2547 faces
+397166 square feet [57192044.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2547 patches before subdivision
+25341 patches after subdivision
+11 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1813376, max 434
+transfer lists:  13.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(81563, 49731, 36577)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(9417, 3797, 1619)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2659, 786, 251)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(618, 97, 28)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(238, 28, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(70, 4, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(29, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0082 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                438/8192         5256/98304    ( 5.3%) 
+brushsides            2954/81920       23632/655360   ( 3.6%) 
+planes                1344/65536       26880/1310720  ( 2.1%) 
+vertexes              3983/65536       47796/786432   ( 6.1%) 
+nodes                 1723/65536       55136/2097152  ( 2.6%) 
+texinfos               123/12288        8856/884736   ( 1.0%) 
+texdata                  7/4096          224/131072   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2547/65536      142632/3670016  ( 3.9%) 
+hdr faces             2547/65536      142632/3670016  ( 3.9%) 
+origfaces             1405/65536       78680/3670016  ( 2.1%) 
+facebrushes            426/0             852/0        ( 0.0%) 
+facebrushlists        2547/0           10188/0        ( 0.0%) 
+leaves                1725/65536       55200/2097152  ( 2.6%) 
+leaffaces             2979/65536        5958/131072   ( 4.5%) 
+leafbrushes           1275/65536        2550/131072   ( 1.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            17771/512000      71084/2048000  ( 3.5%) 
+edges                 9997/256000      39988/1024000  ( 3.9%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights         11/8192         1100/819200   ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            223/32768        2230/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3549/65536        7098/131072   ( 5.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     2729324/0        ( 0.0%) 
+visdata               [variable]      153976/16777216 ( 0.9%) 
+entdata               [variable]        3714/393216   ( 0.9%) 
+LDR ambient table     1725/65536        6900/262144   ( 2.6%) 
+HDR ambient table     1725/65536        6900/262144   ( 2.6%) 
+LDR leaf ambient      1725/65536       48300/1835008  ( 2.6%) 
+HDR leaf ambient      7415/65536      207620/1835008  (11.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74466/0        ( 0.0%) 
+physics               [variable]      152223/4194304  ( 3.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7e
+
+Total triangle count: 7142
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+13 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 63
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (158484 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 158 texinfos to 136
+Reduced 10 texdatas to 10 (393 bytes to 393)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+ 833 portalclusters
+2672 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1566 visible clusters (0.00%)
+Total clusters visible: 237868
+Average clusters visible: 285
+Building PAS...
+Average clusters audible: 825
+visdatasize:166108  compressed from 186592
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+5 minutes, 58 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+2636 faces
+1 degenerate faces
+404717 square feet [58279296.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2635 patches before subdivision
+25405 patches after subdivision
+13 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1846147, max 451
+transfer lists:  14.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(84260, 53727, 39232)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(9769, 4293, 1914)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2735, 867, 287)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(628, 106, 32)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(245, 30, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(71, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(30, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0076 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                453/8192         5436/98304    ( 5.5%) 
+brushsides            3064/81920       24512/655360   ( 3.7%) 
+planes                1390/65536       27800/1310720  ( 2.1%) 
+vertexes              4096/65536       49152/786432   ( 6.3%) 
+nodes                 1786/65536       57152/2097152  ( 2.7%) 
+texinfos               136/12288        9792/884736   ( 1.1%) 
+texdata                 10/4096          320/131072   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2636/65536      147616/3670016  ( 4.0%) 
+hdr faces             2636/65536      147616/3670016  ( 4.0%) 
+origfaces             1456/65536       81536/3670016  ( 2.2%) 
+facebrushes            406/0             812/0        ( 0.0%) 
+facebrushlists        2636/0           10544/0        ( 0.0%) 
+leaves                1792/65536       57344/2097152  ( 2.7%) 
+leaffaces             3062/65536        6124/131072   ( 4.7%) 
+leafbrushes           1279/65536        2558/131072   ( 2.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            18377/512000      73508/2048000  ( 3.6%) 
+edges                10346/256000      41384/1024000  ( 4.0%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights         13/8192         1300/819200   ( 0.2%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            249/32768        2490/327680   ( 0.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3927/65536        7854/131072   ( 6.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     2759704/0        ( 0.0%) 
+visdata               [variable]      166108/16777216 ( 1.0%) 
+entdata               [variable]        5718/393216   ( 1.5%) 
+LDR ambient table     1792/65536        7168/262144   ( 2.7%) 
+HDR ambient table     1792/65536        7168/262144   ( 2.7%) 
+LDR leaf ambient      1792/65536       50176/1835008  ( 2.7%) 
+HDR leaf ambient      7990/65536      223720/1835008  (12.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74466/0        ( 0.0%) 
+physics               [variable]      158484/4194304  ( 3.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7e
+
+Total triangle count: 7370
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+12 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.vmf
+Map revision 96
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (216557 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 241 texinfos to 217
+Reduced 10 texdatas to 10 (370 bytes to 370)
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+reading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.prt
+1185 portalclusters
+3982 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 4854 visible clusters (0.00%)
+Total clusters visible: 467238
+Average clusters visible: 394
+Building PAS...
+Average clusters audible: 1175
+visdatasize:330124  compressed from 360240
+writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+29 minutes, 34 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+3676 faces
+517177 square feet [74473592.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3676 patches before subdivision
+31472 patches after subdivision
+13 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2643862, max 579
+transfer lists:  20.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(98295, 51630, 32374)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(8221, 3321, 1472)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1592, 399, 135)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(202, 32, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(43, 4, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0110 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                616/8192         7392/98304    ( 7.5%) 
+brushsides            4317/81920       34536/655360   ( 5.3%) 
+planes                2148/65536       42960/1310720  ( 3.3%) 
+vertexes              5584/65536       67008/786432   ( 8.5%) 
+nodes                 2419/65536       77408/2097152  ( 3.7%) 
+texinfos               217/12288       15624/884736   ( 1.8%) 
+texdata                 10/4096          320/131072   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3676/65536      205856/3670016  ( 5.6%) 
+hdr faces             3676/65536      205856/3670016  ( 5.6%) 
+origfaces             2072/65536      116032/3670016  ( 3.2%) 
+facebrushes            524/0            1048/0        ( 0.0%) 
+facebrushlists        3676/0           14704/0        ( 0.0%) 
+leaves                2426/65536       77632/2097152  ( 3.7%) 
+leaffaces             4260/65536        8520/131072   ( 6.5%) 
+leafbrushes           1663/65536        3326/131072   ( 2.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            25828/512000     103312/2048000  ( 5.0%) 
+edges                14472/256000      57888/1024000  ( 5.7%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights         13/8192         1300/819200   ( 0.2%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            349/32768        3490/327680   ( 1.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5637/65536       11274/131072   ( 8.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     3366456/0        ( 0.0%) 
+visdata               [variable]      330124/16777216 ( 2.0%) 
+entdata               [variable]        5931/393216   ( 1.5%) 
+LDR ambient table     2426/65536        9704/262144   ( 3.7%) 
+HDR ambient table     2426/65536        9704/262144   ( 3.7%) 
+LDR leaf ambient      2426/65536       67928/1835008  ( 3.7%) 
+HDR leaf ambient     10430/65536      292040/1835008  (15.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74466/0        ( 0.0%) 
+physics               [variable]      216557/4194304  ( 5.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7e
+
+Total triangle count: 10309
+Writing c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\thibault\desktop\de_imagine\de_imagine_blocky.bsp', but we don't own that location. Allowing...
+21 seconds elapsed
